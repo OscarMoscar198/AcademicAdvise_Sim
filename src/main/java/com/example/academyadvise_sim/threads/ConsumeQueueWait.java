@@ -13,7 +13,7 @@ public class ConsumeQueueWait  extends Observable implements Runnable{
     @Override
     public void run() {
         while (true){
-            System.out.println("ESTOY AQUI");
+            System.out.println("Presente");
             this.studentMonitor.extractStudentsWait();
             setChanged();
             notifyObservers("2");

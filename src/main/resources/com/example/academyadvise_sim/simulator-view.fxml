@@ -13,12 +13,12 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<VBox alignment="CENTER" spacing="20.0" style="-fx-background-color: #1a1b1a;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.academyadvise_sim.controller.MainController">
+<VBox alignment="CENTER" spacing="20.0" style="-fx-background-color: #94fff0;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.academyadvise_sim.controller.MainController">
     <padding>
         <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
     </padding>
    <children>
-      <GridPane prefHeight="41.0" prefWidth="782.0" style="-fx-border-color: white white transparent white;;">
+      <GridPane prefHeight="41.0" prefWidth="782.0">
         <columnConstraints>
           <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
             <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
@@ -30,17 +30,17 @@
          <children>
             <HBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="392.0" spacing="20.0">
                <children>
-                  <Rectangle fx:id="deliver_command" arcHeight="5.0" arcWidth="5.0" fill="#232424" height="50.0" stroke="#7d00ff" strokeType="INSIDE" style="-fx-arc-height: 30; -fx-arc-width: 30;" width="50.0" />
+                  <Rectangle fx:id="deliver_command" arcHeight="5.0" arcWidth="5.0" fill="#232424" height="50.0" stroke="#1800ff" strokeType="INSIDE" style="-fx-arc-height: 100; -fx-arc-width: 100;" width="50.0" />
                </children>
             </HBox>
             <HBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="392.0" spacing="20.0" GridPane.columnIndex="1">
                <children>
-                  <Rectangle fx:id="cooking_command" arcHeight="5.0" arcWidth="5.0" fill="#232424" height="50.0" stroke="#7d00ff" strokeType="INSIDE" style="-fx-arc-height: 30; -fx-arc-width: 30;" width="50.0" />
+                  <Rectangle fx:id="cooking_command" arcHeight="5.0" arcWidth="5.0" fill="#232424" height="50.0" stroke="#1800ff" strokeType="INSIDE" style="-fx-arc-height: 100; -fx-arc-width: 100;" width="50.0" />
                </children>
             </HBox>
-            <HBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="392.0" spacing="20.0" GridPane.columnIndex="2">
+            <HBox alignment="TOP_CENTER" prefHeight="50.0" prefWidth="217.0" spacing="20.0" GridPane.columnIndex="2">
                <children>
-                  <Rectangle fx:id="wait_command" arcHeight="5.0" arcWidth="5.0" fill="#7d00ff" height="50.0" stroke="#7d00ff" strokeType="INSIDE" style="-fx-arc-width: 30; -fx-arc-height: 30;" width="50.0" />
+                  <Rectangle fx:id="wait_command" arcHeight="5.0" arcWidth="5.0" fill="#1800ff" height="50.0" stroke="#1800ff" strokeType="INSIDE" style="-fx-arc-width: 100; -fx-arc-height: 100;" width="50.0" />
                </children>
             </HBox>
          </children>
@@ -48,7 +48,7 @@
             <Insets bottom="10.0" top="50.0" />
          </padding>
       </GridPane>
-      <VBox prefHeight="200.0" prefWidth="100.0" spacing="10.0" style="-fx-border-color: transparent white transparent white;">
+      <VBox prefHeight="200.0" prefWidth="100.0" spacing="10.0">
          <children>
             <GridPane fx:id="tables" vgap="50.0">
               <columnConstraints>
@@ -67,220 +67,216 @@
                <children>
                   <HBox alignment="TOP_CENTER" layoutX="10.0" layoutY="120.0" prefHeight="200.0" prefWidth="392.0" spacing="20.0">
                      <children>
-                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#232424" height="50.0" stroke="WHITE" strokeType="INSIDE" style="-fx-arc-height: 30; -fx-arc-width: 30;" width="50.0" />
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#232424" height="50.0" stroke="WHITE" strokeType="INSIDE" style="-fx-arc-height: 100; -fx-arc-width: 100;" width="50.0" />
                         <StackPane prefHeight="50.0" prefWidth="46.0">
                            <children>
-                              <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#232424" height="50.0" stroke="#0055ff" strokeType="INSIDE" style="-fx-arc-height: 30; -fx-arc-width: 30;" width="50.0" />
-                              <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="-" />
+                              <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#232424" height="50.0" stroke="#0055ff" strokeType="INSIDE" style="-fx-arc-height: 100; -fx-arc-width: 100;" width="50.0" />
+                              <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" />
                            </children>
                         </StackPane>
                      </children>
                   </HBox>
                   <HBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="392.0" spacing="20.0" GridPane.rowIndex="1">
                      <children>
-                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#232424" height="50.0" stroke="#d7d7d7" strokeType="INSIDE" style="-fx-arc-height: 30; -fx-arc-width: 30;" width="50.0" />
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#232424" height="50.0" stroke="#d7d7d7" strokeType="INSIDE" style="-fx-arc-height: 100; -fx-arc-width: 100;" width="50.0" />
                         <StackPane prefHeight="50.0" prefWidth="46.0">
                            <children>
-                              <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#232424" height="50.0" stroke="#0055ff" strokeType="INSIDE" style="-fx-arc-height: 30; -fx-arc-width: 30;" width="50.0" />
-                              <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="-" />
+                              <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#232424" height="50.0" stroke="#0055ff" strokeType="INSIDE" style="-fx-arc-height: 100; -fx-arc-width: 100;" width="50.0" />
+                              <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" />
                            </children>
                         </StackPane>
                      </children>
                   </HBox>
                   <HBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="392.0" spacing="20.0" GridPane.rowIndex="2">
                      <children>
-                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#232424" height="50.0" stroke="WHITE" strokeType="INSIDE" style="-fx-arc-height: 30; -fx-arc-width: 30;" width="50.0" />
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#232424" height="50.0" stroke="WHITE" strokeType="INSIDE" style="-fx-arc-height: 100; -fx-arc-width: 100;" width="50.0" />
                         <StackPane prefHeight="50.0" prefWidth="46.0">
                            <children>
-                              <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#232424" height="50.0" stroke="#0055ff" strokeType="INSIDE" style="-fx-arc-height: 30; -fx-arc-width: 30;" width="50.0" />
-                              <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="-" />
+                              <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#232424" height="50.0" stroke="#0055ff" strokeType="INSIDE" style="-fx-arc-height: 100; -fx-arc-width: 100;" width="50.0" />
+                              <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" />
                            </children>
                         </StackPane>
                      </children>
                   </HBox>
                   <HBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="392.0" spacing="20.0" GridPane.rowIndex="3">
                      <children>
-                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#232424" height="50.0" stroke="WHITE" strokeType="INSIDE" style="-fx-arc-height: 30; -fx-arc-width: 30;" width="50.0" />
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#232424" height="50.0" stroke="WHITE" strokeType="INSIDE" style="-fx-arc-height: 100; -fx-arc-width: 100;" width="50.0" />
                         <StackPane prefHeight="50.0" prefWidth="46.0">
                            <children>
-                              <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#232424" height="50.0" stroke="#0055ff" strokeType="INSIDE" style="-fx-arc-height: 30; -fx-arc-width: 30;" width="50.0" />
-                              <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="-" />
+                              <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#232424" height="50.0" stroke="#0055ff" strokeType="INSIDE" style="-fx-arc-height: 100; -fx-arc-width: 100;" width="50.0" />
+                              <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" />
                            </children>
                         </StackPane>
                      </children>
                   </HBox>
                   <HBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="392.0" spacing="20.0" GridPane.rowIndex="4">
                      <children>
-                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#232424" height="50.0" stroke="WHITE" strokeType="INSIDE" style="-fx-arc-height: 30; -fx-arc-width: 30;" width="50.0" />
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#232424" height="50.0" stroke="WHITE" strokeType="INSIDE" style="-fx-arc-height: 100; -fx-arc-width: 100;" width="50.0" />
                         <StackPane prefHeight="50.0" prefWidth="46.0">
                            <children>
-                              <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#232424" height="50.0" stroke="#0055ff" strokeType="INSIDE" style="-fx-arc-height: 30; -fx-arc-width: 30;" width="50.0" />
-                              <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="-" />
+                              <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#232424" height="50.0" stroke="#0055ff" strokeType="INSIDE" style="-fx-arc-height: 100; -fx-arc-width: 100;" width="50.0" />
+                              <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" />
                            </children>
                         </StackPane>
                      </children>
                   </HBox>
                   <HBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="392.0" spacing="20.0" GridPane.columnIndex="1">
                      <children>
-                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#232424" height="50.0" stroke="WHITE" strokeType="INSIDE" style="-fx-arc-height: 30; -fx-arc-width: 30;" width="50.0" />
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#232424" height="50.0" stroke="WHITE" strokeType="INSIDE" style="-fx-arc-height: 100; -fx-arc-width: 100;" width="50.0" />
                         <StackPane prefHeight="50.0" prefWidth="46.0">
                            <children>
-                              <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#232424" height="50.0" stroke="#0055ff" strokeType="INSIDE" style="-fx-arc-height: 30; -fx-arc-width: 30;" width="50.0" />
-                              <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="-" />
+                              <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#232424" height="50.0" stroke="#0055ff" strokeType="INSIDE" style="-fx-arc-height: 100; -fx-arc-width: 100;" width="50.0" />
+                              <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" />
                            </children>
                         </StackPane>
                      </children>
                   </HBox>
                   <HBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="392.0" spacing="20.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
                      <children>
-                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#232424" height="50.0" stroke="WHITE" strokeType="INSIDE" style="-fx-arc-height: 30; -fx-arc-width: 30;" width="50.0" />
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#232424" height="50.0" stroke="WHITE" strokeType="INSIDE" style="-fx-arc-height: 100; -fx-arc-width: 100;" width="50.0" />
                         <StackPane prefHeight="50.0" prefWidth="46.0">
                            <children>
-                              <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#232424" height="50.0" stroke="#0055ff" strokeType="INSIDE" style="-fx-arc-height: 30; -fx-arc-width: 30;" width="50.0" />
-                              <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="-" />
+                              <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#232424" height="50.0" stroke="#0055ff" strokeType="INSIDE" style="-fx-arc-height: 100; -fx-arc-width: 100;" width="50.0" />
+                              <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" />
                            </children>
                         </StackPane>
                      </children>
                   </HBox>
                   <HBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="392.0" spacing="20.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
                      <children>
-                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#232424" height="50.0" stroke="WHITE" strokeType="INSIDE" style="-fx-arc-height: 30; -fx-arc-width: 30;" width="50.0" />
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#232424" height="50.0" stroke="WHITE" strokeType="INSIDE" style="-fx-arc-height: 100; -fx-arc-width: 100;" width="50.0" />
                         <StackPane prefHeight="50.0" prefWidth="46.0">
                            <children>
-                              <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#232424" height="50.0" stroke="#0055ff" strokeType="INSIDE" style="-fx-arc-height: 30; -fx-arc-width: 30;" width="50.0" />
-                              <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="-" />
+                              <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#232424" height="50.0" stroke="#0055ff" strokeType="INSIDE" style="-fx-arc-height: 100; -fx-arc-width: 100;" width="50.0" />
+                              <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" />
                            </children>
                         </StackPane>
                      </children>
                   </HBox>
                   <HBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="392.0" spacing="20.0" GridPane.columnIndex="1" GridPane.rowIndex="3">
                      <children>
-                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#232424" height="50.0" stroke="WHITE" strokeType="INSIDE" style="-fx-arc-height: 30; -fx-arc-width: 30;" width="50.0" />
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#232424" height="50.0" stroke="WHITE" strokeType="INSIDE" style="-fx-arc-height: 100; -fx-arc-width: 100;" width="50.0" />
                         <StackPane prefHeight="50.0" prefWidth="46.0">
                            <children>
-                              <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#232424" height="50.0" stroke="#0055ff" strokeType="INSIDE" style="-fx-arc-height: 30; -fx-arc-width: 30;" width="50.0" />
-                              <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="-" />
+                              <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#232424" height="50.0" stroke="#0055ff" strokeType="INSIDE" style="-fx-arc-height: 100; -fx-arc-width: 100;" width="50.0" />
+                              <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" />
                            </children>
                         </StackPane>
                      </children>
                   </HBox>
                   <HBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="392.0" spacing="20.0" GridPane.columnIndex="1" GridPane.rowIndex="4">
                      <children>
-                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#232424" height="50.0" stroke="WHITE" strokeType="INSIDE" style="-fx-arc-height: 30; -fx-arc-width: 30;" width="50.0" />
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#232424" height="50.0" stroke="WHITE" strokeType="INSIDE" style="-fx-arc-height: 100; -fx-arc-width: 100;" width="50.0" />
                         <StackPane prefHeight="50.0" prefWidth="46.0">
                            <children>
-                              <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#232424" height="50.0" stroke="#0055ff" strokeType="INSIDE" style="-fx-arc-height: 30; -fx-arc-width: 30;" width="50.0" />
-                              <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="-" />
+                              <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#232424" height="50.0" stroke="#0055ff" strokeType="INSIDE" style="-fx-arc-height: 100; -fx-arc-width: 100;" width="50.0" />
+                              <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" />
                            </children>
                         </StackPane>
                      </children>
                   </HBox>
                   <HBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="392.0" spacing="20.0" GridPane.columnIndex="2">
                      <children>
-                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#232424" height="50.0" stroke="WHITE" strokeType="INSIDE" style="-fx-arc-height: 30; -fx-arc-width: 30;" width="50.0" />
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#232424" height="50.0" stroke="WHITE" strokeType="INSIDE" style="-fx-arc-height: 100; -fx-arc-width: 100;" width="50.0" />
                         <StackPane prefHeight="50.0" prefWidth="46.0">
                            <children>
-                              <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#232424" height="50.0" stroke="#0055ff" strokeType="INSIDE" style="-fx-arc-height: 30; -fx-arc-width: 30;" width="50.0" />
-                              <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="-" />
+                              <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#232424" height="50.0" stroke="#0055ff" strokeType="INSIDE" style="-fx-arc-height: 100; -fx-arc-width: 100;" width="50.0" />
+                              <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" />
                            </children>
                         </StackPane>
                      </children>
                   </HBox>
                   <HBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="392.0" spacing="20.0" GridPane.columnIndex="2" GridPane.rowIndex="1">
                      <children>
-                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#232424" height="50.0" stroke="WHITE" strokeType="INSIDE" style="-fx-arc-height: 30; -fx-arc-width: 30;" width="50.0" />
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#232424" height="50.0" stroke="WHITE" strokeType="INSIDE" style="-fx-arc-height: 100; -fx-arc-width: 100;" width="50.0" />
                         <StackPane prefHeight="50.0" prefWidth="46.0">
                            <children>
-                              <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#232424" height="50.0" stroke="#0055ff" strokeType="INSIDE" style="-fx-arc-height: 30; -fx-arc-width: 30;" width="50.0" />
-                              <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="-" />
+                              <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#232424" height="50.0" stroke="#0055ff" strokeType="INSIDE" style="-fx-arc-height: 200; -fx-arc-width: 100;" width="50.0" />
                            </children>
                         </StackPane>
                      </children>
                   </HBox>
                   <HBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="392.0" spacing="20.0" GridPane.columnIndex="2" GridPane.rowIndex="2">
                      <children>
-                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#232424" height="50.0" stroke="#e4e4e4" strokeType="INSIDE" style="-fx-arc-height: 30; -fx-arc-width: 30;" width="50.0" />
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#232424" height="50.0" stroke="#e4e4e4" strokeType="INSIDE" style="-fx-arc-height: 100; -fx-arc-width: 100;" width="50.0" />
                         <StackPane prefHeight="50.0" prefWidth="46.0">
                            <children>
-                              <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#232424" height="50.0" stroke="#0055ff" strokeType="INSIDE" style="-fx-arc-height: 30; -fx-arc-width: 30;" width="50.0" />
-                              <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="-" />
+                              <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#232424" height="50.0" stroke="#0055ff" strokeType="INSIDE" style="-fx-arc-height: 100; -fx-arc-width: 100;" width="50.0" />
+                              <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" />
                            </children>
                         </StackPane>
                      </children>
                   </HBox>
                   <HBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="392.0" spacing="20.0" GridPane.columnIndex="2" GridPane.rowIndex="3">
                      <children>
-                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#232424" height="50.0" stroke="WHITE" strokeType="INSIDE" style="-fx-arc-height: 30; -fx-arc-width: 30;" width="50.0" />
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#232424" height="50.0" stroke="WHITE" strokeType="INSIDE" style="-fx-arc-height: 100; -fx-arc-width: 100;" width="50.0" />
                         <StackPane prefHeight="50.0" prefWidth="46.0">
                            <children>
-                              <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#232424" height="50.0" stroke="#0055ff" strokeType="INSIDE" style="-fx-arc-height: 30; -fx-arc-width: 30;" width="50.0" />
-                              <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="-" />
+                              <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#232424" height="50.0" stroke="#0055ff" strokeType="INSIDE" style="-fx-arc-height: 100; -fx-arc-width: 100;" width="50.0" />
+                              <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" />
                            </children>
                         </StackPane>
                      </children>
                   </HBox>
                   <HBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="392.0" spacing="20.0" GridPane.columnIndex="2" GridPane.rowIndex="4">
                      <children>
-                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#232424" height="50.0" stroke="WHITE" strokeType="INSIDE" style="-fx-arc-height: 30; -fx-arc-width: 30;" width="50.0" />
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#232424" height="50.0" stroke="WHITE" strokeType="INSIDE" style="-fx-arc-height: 100; -fx-arc-width: 100;" width="50.0" />
                         <StackPane prefHeight="50.0" prefWidth="46.0">
                            <children>
-                              <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#232424" height="50.0" stroke="#0055ff" strokeType="INSIDE" style="-fx-arc-height: 30; -fx-arc-width: 30;" width="50.0" />
-                              <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="-" />
+                              <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#232424" height="50.0" stroke="#0055ff" strokeType="INSIDE" style="-fx-arc-height: 100; -fx-arc-width: 100;" width="50.0" />
+                              <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" />
                            </children>
                         </StackPane>
                      </children>
                   </HBox>
                   <HBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="392.0" spacing="20.0" GridPane.columnIndex="3">
                      <children>
-                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#232424" height="50.0" stroke="WHITE" strokeType="INSIDE" style="-fx-arc-height: 30; -fx-arc-width: 30;" width="50.0" />
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#232424" height="50.0" stroke="WHITE" strokeType="INSIDE" style="-fx-arc-height: 100; -fx-arc-width: 100;" width="50.0" />
                         <StackPane prefHeight="50.0" prefWidth="46.0">
                            <children>
-                              <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#232424" height="50.0" stroke="#0055ff" strokeType="INSIDE" style="-fx-arc-height: 30; -fx-arc-width: 30;" width="50.0" />
-                              <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="-" />
+                              <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#232424" height="50.0" stroke="#0055ff" strokeType="INSIDE" style="-fx-arc-height: 100; -fx-arc-width: 100;" width="50.0" />
                            </children>
                         </StackPane>
                      </children>
                   </HBox>
                   <HBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="392.0" spacing="20.0" GridPane.columnIndex="3" GridPane.rowIndex="1">
                      <children>
-                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#232424" height="50.0" stroke="#f8f8f8" strokeType="INSIDE" style="-fx-arc-height: 30; -fx-arc-width: 30;" width="50.0" />
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#232424" height="50.0" stroke="#f8f8f8" strokeType="INSIDE" style="-fx-arc-height: 100; -fx-arc-width: 100;" width="50.0" />
                         <StackPane prefHeight="50.0" prefWidth="46.0">
                            <children>
-                              <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#232424" height="50.0" stroke="#0055ff" strokeType="INSIDE" style="-fx-arc-height: 30; -fx-arc-width: 30;" width="50.0" />
-                              <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="-" />
+                              <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#232424" height="50.0" stroke="#0055ff" strokeType="INSIDE" style="-fx-arc-height: 100; -fx-arc-width: 100;" width="50.0" />
+                              <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" />
                            </children>
                         </StackPane>
                      </children>
                   </HBox>
                   <HBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="392.0" spacing="20.0" GridPane.columnIndex="3" GridPane.rowIndex="2">
                      <children>
-                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#232424" height="50.0" stroke="WHITE" strokeType="INSIDE" style="-fx-arc-height: 30; -fx-arc-width: 30;" width="50.0" />
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#232424" height="50.0" stroke="WHITE" strokeType="INSIDE" style="-fx-arc-height: 100; -fx-arc-width: 100;" width="50.0" />
                         <StackPane prefHeight="50.0" prefWidth="46.0">
                            <children>
-                              <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#232424" height="50.0" stroke="#0055ff" strokeType="INSIDE" style="-fx-arc-height: 30; -fx-arc-width: 30;" width="50.0" />
-                              <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="-" />
+                              <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#232424" height="50.0" stroke="#0055ff" strokeType="INSIDE" style="-fx-arc-height: 100; -fx-arc-width: 200;" width="50.0" />
+                              <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" />
                            </children>
                         </StackPane>
                      </children>
                   </HBox>
                   <HBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="392.0" spacing="20.0" GridPane.columnIndex="3" GridPane.rowIndex="3">
                      <children>
-                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#232424" height="50.0" stroke="WHITE" strokeType="INSIDE" style="-fx-arc-height: 30; -fx-arc-width: 30;" width="50.0" />
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#232424" height="50.0" stroke="WHITE" strokeType="INSIDE" style="-fx-arc-height: 100; -fx-arc-width: 100;" width="50.0" />
                         <StackPane prefHeight="50.0" prefWidth="46.0">
                            <children>
-                              <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#232424" height="50.0" stroke="#0055ff" strokeType="INSIDE" style="-fx-arc-height: 30; -fx-arc-width: 30;" width="50.0" />
-                              <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="-" />
+                              <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#232424" height="50.0" stroke="#0055ff" strokeType="INSIDE" style="-fx-arc-height: 100; -fx-arc-width: 124;" width="50.0" />
                            </children>
                         </StackPane>
                      </children>
                   </HBox>
                   <HBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="392.0" spacing="20.0" GridPane.columnIndex="3" GridPane.rowIndex="4">
                      <children>
-                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#232424" height="50.0" stroke="#f2f2f2" strokeType="INSIDE" style="-fx-arc-height: 30; -fx-arc-width: 30;" width="50.0" />
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#232424" height="50.0" stroke="#f2f2f2" strokeType="INSIDE" style="-fx-arc-height: 100; -fx-arc-width: 100;" width="50.0" />
                         <StackPane prefHeight="50.0" prefWidth="46.0">
                            <children>
-                              <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#232424" height="50.0" stroke="#0055ff" strokeType="INSIDE" style="-fx-arc-height: 30; -fx-arc-width: 30;" width="50.0" />
-                              <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="-" />
+                              <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#232424" height="50.0" stroke="#0055ff" strokeType="INSIDE" style="-fx-arc-height: 12312; -fx-arc-width: 1312;" width="50.0" />
                            </children>
                         </StackPane>
                      </children>
@@ -292,16 +288,16 @@
             </GridPane>
             <HBox alignment="BOTTOM_RIGHT" prefHeight="43.0" prefWidth="967.0" spacing="20.0">
                <children>
-                  <Rectangle fx:id="enter_student" arcHeight="5.0" arcWidth="5.0" fill="#232424" height="50.0" stroke="#55ff0c" strokeType="INSIDE" style="-fx-arc-height: 30; -fx-arc-width: 30;" width="50.0" />
+                  <Rectangle fx:id="enter_student" arcHeight="5.0" arcWidth="5.0" fill="#232424" height="50.0" stroke="#55ff0c" strokeType="INSIDE" style="-fx-arc-height: 0; -fx-arc-width: 0;" width="50.0" />
                   <VBox alignment="BOTTOM_CENTER" prefHeight="6.0" prefWidth="100.0">
                      <children>
-                        <Rectangle fx:id="enter_waitress" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="50.0" stroke="WHITE" strokeType="INSIDE" style="-fx-arc-height: 30; -fx-arc-width: 30;" width="50.0" />
+                        <Rectangle fx:id="enter_waitress" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="50.0" stroke="WHITE" strokeType="INSIDE" style="-fx-arc-height: 100; -fx-arc-width: 100;" width="50.0" />
                      </children>
                   </VBox>
-                  <Rectangle fx:id="exit_door" arcHeight="5.0" arcWidth="5.0" fill="#232424" height="50.0" stroke="#ff0202" strokeType="INSIDE" style="-fx-arc-height: 30; -fx-arc-width: 30;" width="50.0" />
-                  <Button fx:id="btn_start" mnemonicParsing="false" onMouseClicked="#onClickedStart" prefHeight="35.0" prefWidth="79.0" style="-fx-border-color: #ffffff" styleClass="button" text="Start" textFill="WHITE" textOverrun="WORD_ELLIPSIS">
+                  <Rectangle fx:id="exit_door" arcHeight="5.0" arcWidth="5.0" fill="#232424" height="50.0" stroke="#ff0202" strokeType="INSIDE" style="-fx-arc-height: 0; -fx-arc-width: 0;" width="50.0" />
+                  <Button fx:id="btn_start" mnemonicParsing="false" onMouseClicked="#onClickedStart" prefHeight="35.0" prefWidth="79.0" style="-fx-border-color: #ffffff;" styleClass="button" text="INICIAR" textFill="WHITE" textOverrun="WORD_ELLIPSIS">
                      <font>
-                        <Font name="Hack Regular Nerd Font Complete Mono" size="12.0" />
+                        <Font name="Calibri Bold" size="12.0" />
                      </font>
                   </Button>
                </children>
@@ -323,11 +319,6 @@
             <Insets bottom="20.0" top="20.0" />
          </padding>
       </VBox>
-      <HBox prefHeight="37.0" prefWidth="960.0">
-         <children>
-            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="38.0" stroke="#ffffff00" strokeType="INSIDE" width="270.0" />
-         </children>
-      </HBox>
       <HBox alignment="TOP_RIGHT">
          <children>
             <HBox fx:id="queue_wait" alignment="TOP_RIGHT" nodeOrientation="RIGHT_TO_LEFT" prefHeight="50.0" prefWidth="68.0" spacing="10.0">
@@ -338,11 +329,10 @@
             <Pane prefHeight="50.0" prefWidth="84.0" />
             <HBox alignment="CENTER" prefHeight="50.0" prefWidth="114.0">
                <children>
-                  <Rectangle fx:id="exit" arcHeight="5.0" arcWidth="5.0" fill="#232424" height="50.0" stroke="RED" strokeType="INSIDE" style="-fx-arc-height: 30; -fx-arc-width: 30;" width="50.0" />
+                  <Rectangle fx:id="exit" arcHeight="5.0" arcWidth="5.0" fill="#232424" height="50.0" stroke="RED" strokeType="INSIDE" style="-fx-arc-height: 0; -fx-arc-width: 0;" width="50.0" />
                </children>
             </HBox>
          </children>
       </HBox>
-      <HBox alignment="TOP_CENTER" prefHeight="27.0" prefWidth="964.0" />
    </children>
 </VBox>

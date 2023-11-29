@@ -32,9 +32,9 @@ public class MainController implements Observer{
     private final Color EmptySpaceColor=Color.web("#232424");
 
 
-    private final Color WaitresColor=Color.web("#ffffff");
+    private final Color CordinatorColor=Color.web("#ffffff");
 
-    private final Color TutorColor=Color.web("#7d00ff");
+    private final Color TutorColor=Color.web("#1800ff");
 
     @FXML
     private Button btn_start;
@@ -247,7 +247,7 @@ public class MainController implements Observer{
         Text text = (Text) stackPane.getChildren().get(1);
         Platform.runLater(()->{
             enter_waitress.setFill(EmptySpaceColor);
-            waitress.setFill(WaitresColor);
+            waitress.setFill(CordinatorColor);
             student.setFill(enter_student.getFill());
             text.setFill(Color.BLACK);
             text.setText("-W");
@@ -257,15 +257,15 @@ public class MainController implements Observer{
 
     private void waitresReturnEntrace(Rectangle waitress){
         Platform.runLater(()->{
-            enter_waitress.setFill(WaitresColor);
+            enter_waitress.setFill(CordinatorColor);
             waitress.setFill(EmptySpaceColor);
         });
     }
     private void addStudentToQueueWait(){
         Student newStudent =this.studentMonitor.getQueue_wait().getLast();
         Rectangle square = new Rectangle(50, 50, newStudent.getColor());
-        square.setArcHeight(30);
-        square.setArcWidth(30);
+        square.setArcHeight(100);
+        square.setArcWidth(100);
         Platform.runLater(()->{queue_wait.getChildren().add(square);});
     }
 

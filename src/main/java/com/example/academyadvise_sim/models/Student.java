@@ -18,9 +18,9 @@ public class Student {
     }
 
     private Color GenerateColorRandom(){
-        int rangR = (int)(Math.random() * (200 - 150)) + 170;
-        int rangG = (int)(Math.random() * (200 - 150)) + 170;
-        int rangB = (int)(Math.random() * (200 - 150)) + 170;
+        int rangR = (int)(Math.random() * (124 - 190)) + 170;
+        int rangG = (int)(Math.random() * (124 - 190)) + 170;
+        int rangB = (int)(Math.random() * (124 - 190)) + 170;
         return Color.rgb(rangR, rangG, rangB);
     }
 
