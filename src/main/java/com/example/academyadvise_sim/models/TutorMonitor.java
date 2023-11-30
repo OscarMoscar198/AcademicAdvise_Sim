@@ -56,7 +56,7 @@ public class TutorMonitor {
                 throw new RuntimeException(e);
             }
         }
-        Student studentOrder = classroom.getDinnerByState(StudentState.SIT_WITHOUT_ORDER);
+        Student studentOrder = classroom.getDinnerByState(StudentState.SIT_WITHOUT_ADVICE);
         if(studentOrder !=null){
             studentOrder.setState(StudentState.WAIT_ADVICE);
             commands.add(studentOrder);
