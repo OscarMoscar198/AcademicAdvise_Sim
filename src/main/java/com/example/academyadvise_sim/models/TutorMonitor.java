@@ -32,7 +32,7 @@ public class TutorMonitor {
             }
         }
         Student student =commands.remove();
-        student.setState(StudentState.EAT);
+        student.setState(StudentState.STUDY);
         student.setTime(getRandomEatTime());
         orders.add(student);
         try {
