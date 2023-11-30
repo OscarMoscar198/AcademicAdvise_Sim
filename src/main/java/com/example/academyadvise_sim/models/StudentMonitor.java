@@ -58,7 +58,7 @@ public class StudentMonitor {
         }
 
         this.enter=this.queue_wait.getFirst();
-        this.enter.setState(StudentState.SIT_WITHOUT_ORDER);
+        this.enter.setState(StudentState.SIT_WITHOUT_ADVICE);
         this.classroom.setData(this.getEnter());
         try {
             Thread.sleep(ThreadLocalRandom.current().nextInt(2000));
