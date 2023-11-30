@@ -2,7 +2,7 @@ package com.example.academyadvise_sim.models.enums;
 
 public enum StudentState {
     WAIT,
-    SIT_WITHOUT_ORDER,
+    SIT_WITHOUT_ADVICE,
     WAIT_ADVICE,
     EAT,
     EAT_FINISH,
