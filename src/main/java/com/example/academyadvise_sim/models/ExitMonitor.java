@@ -44,7 +44,7 @@ public class ExitMonitor {
         }
             Student studentOrder = classroom.getDinnerByState(StudentState.EAT_FINISH);
             if(studentOrder !=null){
-                studentOrder.setState(StudentState.WAIT_ORDER);
+                studentOrder.setState(StudentState.WAIT_ADVICE);
                 this.exitQueue.add(studentOrder);
             }
         try {

@@ -58,7 +58,7 @@ public class TutorMonitor {
         }
         Student studentOrder = classroom.getDinnerByState(StudentState.SIT_WITHOUT_ORDER);
         if(studentOrder !=null){
-            studentOrder.setState(StudentState.WAIT_ORDER);
+            studentOrder.setState(StudentState.WAIT_ADVICE);
             commands.add(studentOrder);
         }
         try {
