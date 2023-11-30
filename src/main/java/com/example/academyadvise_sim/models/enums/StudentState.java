@@ -4,7 +4,7 @@ public enum StudentState {
     WAIT,
     SIT_WITHOUT_ADVICE,
     WAIT_ADVICE,
-    EAT,
-    EAT_FINISH,
+    STUDY,
+    STUDY_FINISH,
     EXIT
 }

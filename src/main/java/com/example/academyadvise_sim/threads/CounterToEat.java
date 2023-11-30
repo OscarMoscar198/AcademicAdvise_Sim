@@ -23,7 +23,7 @@ public class CounterToEat implements Runnable {
             }
             student.decrementTime();
         }
-        student.setState(StudentState.EAT_FINISH);
+        student.setState(StudentState.STUDY_FINISH);
         try {
             Thread.sleep(1000);
         } catch (InterruptedException e) {
