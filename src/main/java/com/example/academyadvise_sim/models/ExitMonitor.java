@@ -42,7 +42,7 @@ public class ExitMonitor {
                 throw new RuntimeException(e);
             }
         }
-            Student studentOrder = classroom.getDinnerByState(StudentState.EAT_FINISH);
+            Student studentOrder = classroom.getDinnerByState(StudentState.STUDY_FINISH);
             if(studentOrder !=null){
                 studentOrder.setState(StudentState.WAIT_ADVICE);
                 this.exitQueue.add(studentOrder);
