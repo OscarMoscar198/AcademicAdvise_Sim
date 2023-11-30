@@ -20,7 +20,7 @@ import java.util.Observable;
 import java.util.Observer;
 
 
-public class MainController implements Observer{
+public class Main implements Observer{
     private StudentMonitor studentMonitor;
 
     private ExitMonitor exitMonitor;
